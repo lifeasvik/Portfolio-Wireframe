@@ -8,35 +8,45 @@
       type="text/css"
       href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"
     />
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <nav role="navigation">Nav</nav>
+    <nav role="navigation">
+      <div class="top-nav">
+        <ul>
+          <li><a href="#blue">Home</a></li>
+          <li><a href="#orange">About</a></li>
+          <li><a href="#red">Code</a></li>
+          <li><a href="#green">Projects</a></li>
+          <li><a href="#yellow">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
     <main role="main">
-      <header role="banner">
-        <h1>Hero</h1>
+      <header class="nameontop">
+        <h1>Vik Birdi</h1>
       </header>
 
-      <section>
-        Section 1
+      <section class="blue" id="blue">
+        About Me: A little write up here about me and what I am about.
       </section>
 
-      <section>
-        Section 2
+      <section class="orange" id="orange">
+        Code: A little bit here about the frameworks and languages I work on.
       </section>
 
-      <section>
-        Section 3
+      <section class="red" id="red">
+        Projects: Highlight Project 1
       </section>
 
-      <section>
-        Project 3
+      <section class="green" id="green">
+        Projects: Highlight Project 2
       </section>
 
-      <section>
-        Section 4
+      <section class="yellow" id="yellow">
+        Contact Me: Information on how you can find me and contact me.
       </section>
     </main>
-    <footer role="content-info">Footer</footer>
+    <footer role="content-info">Vik Birdi - Software Engineer</footer>
   </body>
 </html>
