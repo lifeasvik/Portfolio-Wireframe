@@ -1,71 +1,139 @@
-.top-nav {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  /* background: linear-gradient(-90deg, rgb(240, 240, 245), rgb(250, 250, 250)); */
+  font-family: "PT Sans", sans-serif;
+}
+
+#topnav {
+  display: flex;
   justify-content: center;
+  padding: 20px;
 }
 
-.top-nav ul {
-  padding: 0;
-  margin: 0;
+.mytopnav {
+  width: 90vw;
   display: flex;
-}
-
-.top-nav li {
-  list-style-type: none;
-  font-size: 16px;
-  border: none;
-  width: 80%;
-  padding: 0;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  justify-content: space-evenly;
 }
 
-.nameontop {
+#mybio {
   display: flex;
-  align-items: center;
-  height: 100vh;
-}
-
-.blue {
-  width: 100vw;
-  height: 100vh;
-  background-color: grey;
-}
-
-.orange {
-  width: 100vw;
-  height: 100vh;
-  background-color: lightgrey;
-}
-
-.red {
-  width: 100vw;
-  height: 100vh;
-  background-color: grey;
-}
-
-.green {
-  width: 100vw;
-  height: 100vh;
-  background-color: lightgrey;
-}
-
-.yellow {
-  width: 100vw;
-  height: 450px;
-  background-color: grey;
-}
-
-footer {
-  display: flex;
-  align-items: center;
   justify-content: center;
-  height: 10vh;
+  padding-bottom: 5px;
+}
+
+.mybiobox {
+  width: 80vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.mybiobox h1 {
+  padding: 10px;
+}
+
+.mybiobox h6 {
+  padding: 10px;
+}
+
+#languages {
+  width: 90vw;
+  height: 100vh;
+  padding: 20px;
+}
+
+.langbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.javascriptlang {
+  background-color: grey;
+  width: 75px;
+  height: 75px;
+}
+
+.reactlang {
+  background-color: grey;
+  width: 75px;
+  height: 75px;
+}
+
+.nodelang {
+  background-color: grey;
+  width: 75px;
+  height: 75px;
+}
+
+#aboutme {
+  padding: 20px;
+  width: 90vw;
+  height: 100vh;
+}
+
+#myportfolio {
+  padding: 20px;
+  width: 90vw;
+  height: 100vh;
+}
+
+#contactme {
+  padding: 20px;
+  width: 90vw;
+  height: 100vh;
+}
+
+@media only screen and (min-width: 400px) {
+  .langbox {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .javascriptlang {
+    background-color: grey;
+    width: 100px;
+    height: 150px;
+  }
+
+  .reactlang {
+    background-color: grey;
+    width: 100px;
+    height: 150px;
+  }
+
+  .nodelang {
+    background-color: grey;
+    width: 100px;
+    height: 150px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .langbox {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .javascriptlang {
+    background-color: grey;
+    width: 150px;
+    height: 250px;
+  }
+
+  .reactlang {
+    background-color: grey;
+    width: 150px;
+    height: 250px;
+  }
+
+  .nodelang {
+    background-color: grey;
+    width: 150px;
+    height: 250px;
+  }
 }
