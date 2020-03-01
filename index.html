@@ -3,96 +3,128 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"
-    />
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>Portfolio Wireframe</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/13061934d5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Vik Birdi - Software Engineer</title>
   </head>
   <body>
-    <header></header>
-    <section id="topnav">
-      <div class="mytopnav">
-        <div><a href="#aboutme">About</a></div>
-        <div><a href="#languages">Code</a></div>
-        <div><a href="#myportfolio">Portfolio</a></div>
-        <div><a href="#contactme">Contact</a></div>
+    <header>
+      <div class="navigation">
+        <a href="#pageTwo">ABOUT</a>
+        <a href="#pageThree">PORTFOLIO</a>
+        <a href="#pageFour">CONTACT</a>
       </div>
-    </section>
-
-    <section id="mybio">
-      <div class="mybiobox">
-        <h1>Vik Birdi</h1>
-
-        <h6>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s
-        </h6>
+    </header>
+    <main>
+      <div class="pageOne">
+        <div class="mainPageContainer">
+          <div>
+            <img src="mypic.jpg" id="mypic" />
+            <h1>MEET VIK</h1>
+          </div>
+          <div>
+            <p>
+              I AM A SOFTWARE ENGINEER OUT OF AUSTIN. TEXAS. REACT ON THE FRONT
+              END NODE.JS ON THE BACKEND. TAKE A LOOK AT SOME OF MY PROJECTS AND
+              FEEL FREE TO REACH OUT IF YOU WOULD LIKE TO HIRE ME.
+            </p>
+          </div>
+          <div class="languages">
+            <div class="imgPad"><i class="fab fa-react fa-3x"></i></div>
+            <div class="imgPad"><i class="fab fa-node-js fa-3x"></i></div>
+            <div class="imgPad"><i class="fab fa-html5 fa-3x"></i></div>
+            <div class="imgPad"><i class="fab fa-js fa-3x"></i></div>
+          </div>
+        </div>
       </div>
-    </section>
-
-    <section id="aboutme">
-      <div>
-        <h1>About</h1>
-        <h6>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </h6>
+      <div id="pageTwo">
+        <div class="aboutMe">
+          <h1>ABOUT ME</h1>
+          <p>
+            Hi I am Vik! In my spare time I love to code. There is nothing more
+            satisfying than a light bulb turning on in your head when you a
+            solve a complicated piece of code or algorithim. My favourite
+            language is React and I love to use Node.js for the backend. I began
+            my caeer in sales but have now transitioned into the satisfying
+            world of Software Engineering. When I am not coding you will find me
+            doing a ton of other fun stuff. I love creating music and can play
+            several instruments. I love hollywood, probably seen every great
+            movie ever, and often get called a movie buff. I love swimming, and
+            on a typical beautiful Austin Texas evening, you find me in a
+            swimming pool doing laps.
+          </p>
+        </div>
       </div>
-    </section>
+      <div id="pageThree">
+        <div class="portfolio">
+          <h1>PORTFOLIO</h1>
+          <p>
+            Crazy Baby Quiz App
+          </p>
+          <div class="projectPic"><img src="projectpic1.jpg" /></div>
 
-    <section id="languages">
-      <div><h1>Code:</h1></div>
-      <div class="langbox">
-        <div class="javascriptlang"></div>
-        <div class="reactlang"></div>
-        <div class="langbox"></div>
-      </div>
-    </section>
+          <div>
+            This app is a random 5 question quiz app that tests your knowledge.
+            A user can click on up to 4 answers and is given a recurring score
+            and a final retry quiz page.
+          </div>
 
-    <section id="myportfolio">
-      <div>
-        <h1>Portfolio</h1>
-        <h6>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </h6>
+          <div>
+            Technologies: HTML, Javascript, Jquery, CSS
+          </div>
+          <div>
+            View
+            <a
+              href="https://lifeasvik.github.io/My-Javascript-Quiz-App/"
+              target="new"
+              name="Live Quiz App"
+              >Live Quiz App</a
+            >
+            or
+            <a
+              href="https://github.com/lifeasvik/My-Javascript-Quiz-App"
+              target="new"
+              name="Github Repository"
+              >Github Repo</a
+            >
+          </div>
+        </div>
       </div>
-    </section>
-
-    <section id="contactme">
-      <div>
-        <h1>Contact</h1>
-        <h6>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </h6>
+      <div id="pageFour">
+        <div class="aboutMe">
+          <h1>CONTACT ME</h1>
+          <div class="p4spacer">
+            PLEASE FEEL FREE TO CONTACT ME WITH ANY PROJECTS YOU WOULD LIKE ME
+            TO TAKE ON
+          </div>
+          <div class="p4spacer">
+            <a href="lifeasvik@gmail.com" target="new" name="email">
+              <i class="far fa-envelope fa-3x"></i>
+            </a>
+          </div>
+          <div class="p4spacer">
+            <a
+              href="https://www.linkedin.com/in/vikbirdi/"
+              target="new"
+              name="Linkedin"
+              ><i class="fab fa-linkedin-in fa-3x"></i
+            ></a>
+          </div>
+          <div class="p4spacer">
+            <a href="https://github.com/lifeasvik/" target="new" name="github"
+              ><i class="fab fa-github fa-3x"></i
+            ></a>
+          </div>
+        </div>
       </div>
-    </section>
+    </main>
+    <footer></footer>
   </body>
 </html>
