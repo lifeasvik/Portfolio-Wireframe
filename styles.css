@@ -7,7 +7,7 @@
 }
 
 .navigation {
-  height: 100 px;
+  height: 80 px;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -23,11 +23,11 @@
 }
 
 .navigation a:hover {
-  color: yellow;
+  color: #c0c0c0;
 }
 
 .pageOne {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 100px;
   display: flex;
   justify-content: space-evenly;
@@ -65,7 +65,7 @@
 }
 
 #pageTwo {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 100px;
   display: flex;
   justify-content: space-evenly;
@@ -86,7 +86,7 @@
 }
 
 #pageThree {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 100px;
   display: flex;
   justify-content: space-evenly;
@@ -113,7 +113,7 @@
 }
 
 #pageFour {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 100px;
   display: flex;
   justify-content: space-evenly;
