@@ -136,6 +136,11 @@
     width: 280px;
     height: 200x;
   }
+
+  #mypic {
+    width: 200px;
+    height: 210px;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -147,5 +152,10 @@
   .projectPic img {
     width: 320px;
     height: 240x;
+  }
+
+  #mypic {
+    width: 250px;
+    height: 260px;
   }
 }
