@@ -11,7 +11,7 @@
   width: 100vw;
   display: flex;
   justify-content: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 20px;
   position: fixed;
   background-color: white;
@@ -124,4 +124,28 @@
 
 .p4spacer {
   padding: 10px;
+}
+
+@media screen and (min-width: 480px) {
+  .navigation a {
+    text-decoration: none;
+    font-size: 23px;
+  }
+
+  .projectPic img {
+    width: 280px;
+    height: 200x;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .navigation a {
+    text-decoration: none;
+    font-size: 26px;
+  }
+
+  .projectPic img {
+    width: 320px;
+    height: 240x;
+  }
 }
