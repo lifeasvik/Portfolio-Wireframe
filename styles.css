@@ -102,8 +102,44 @@
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+}
+
+.slideshow img {
+  width: 120px;
+  height: 150px;
+}
+
+.app1 img {
+  width: 190px;
+  height: 150px;
+}
+
+.padder {
+  padding-top: 7px;
+}
+
+.padder2 {
+  padding-top: 30px;
+}
+
+.fontresizer {
+  font-size: 10px;
+}
+
+.imagesizer img {
+  height: 100px;
+  width: 100px;
+}
+.buttonleft {
+  color: #fff !important;
+  background-color: #000 !important;
+}
+
+.buttonright {
+  color: #fff !important;
+  background-color: #000 !important;
 }
 
 .projectPic img {

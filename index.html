@@ -63,44 +63,88 @@
           </p>
         </div>
       </div>
+
       <div id="pageThree">
-        <div class="portfolio">
-          <h1>PORTFOLIO</h1>
-          <p>
-            Crazy Baby Quiz App
-          </p>
-          <div class="projectPic">
-            <img
-              src="projectpic1.jpg"
-              alt="A Picture of a Quiz App I created"
-            />
+        <div>
+          <div class="padder2"><h1>PORTFOLIO</h1></div>
+          <div class="mySlides">
+            <div class="app1"><img src="crazybaby3.png" /></div>
+            <div><h3>Crazy Baby Quiz App</h3></div>
+            <div class="padder">
+              This app is a random 5 question quiz app that tests your
+              knowledge. A user can click on up to 4 answers and is given a
+              recurring score and a final retry quiz page.
+            </div>
+            <div class="padder fontresizer">
+              Technologies: HTML, JavaScript, jQuery, CSS
+            </div>
+            <div class="padder">
+              <a
+                href="https://lifeasvik.github.io/My-Javascript-Quiz-App/"
+                target="new"
+                >Live Quiz App</a
+              >
+              or
+              <a
+                href="https://github.com/lifeasvik/My-Javascript-Quiz-App"
+                target="new"
+                >GitHub Repo</a
+              >
+            </div>
+          </div>
+          <div class="mySlides">
+            <div class="slideshow"><img src="npmm.png" /></div>
+            <div><h3>NPMM</h3></div>
+            <div class="padder">
+              Node Package Manager Manager (NPMM) allows developers to
+              frictionlessly browse and save npm packages. Saved packages can
+              then be programmatically installed with our command line
+              interface.
+            </div>
+            <div class="padder fontresizer">
+              Technologies: React, HTML5, CSS3, JavaScript, Redux, Node,
+              PostgreSQL, Express, Mocha, Chai
+            </div>
+            <div class="padder">
+              <a href="https://npmm.dev/" target="new">Live App</a>
+              or
+              <a href="https://github.com/dannydi12/npmm-server" target="new"
+                >GitHub Repo</a
+              >
+            </div>
           </div>
 
-          <div>
-            This app is a random 5 question quiz app that tests your knowledge.
-            A user can click on up to 4 answers and is given a recurring score
-            and a final retry quiz page.
+          <div class="mySlides">
+            <div class="slideshow"><img src="posted.png" /></div>
+            <div><h3>POSTED</h3></div>
+            <div class="padder">
+              An online postcard generator that allows users to create postcards
+              using a URL link and text of their choice.
+            </div>
+            <div class="padder fontresizer">
+              Technologies: React, Node.JS, PostgreSQL, Express, Mocha, Chai
+            </div>
+            <div class="padder">
+              <a href="https://react-posted.now.sh/" target="new">Live App</a>
+              or
+              <a
+                href="https://github.com/lifeasvik/posted-react-client"
+                target="new"
+                >GitHub Repo</a
+              >
+            </div>
           </div>
-
-          <div>
-            Technologies: HTML, JavaScript, jQuery, CSS
-          </div>
-          <div>
-            View
-            <a
-              href="https://lifeasvik.github.io/My-Javascript-Quiz-App/"
-              target="new"
-              >Live Quiz App</a
-            >
-            or
-            <a
-              href="https://github.com/lifeasvik/My-Javascript-Quiz-App"
-              target="new"
-              >GitHub Repo</a
-            >
+          <div class="padder">
+            <button class="buttonleft" onclick="plusDivs(-1)">
+              &#10094; Back
+            </button>
+            <button class="buttonright" onclick="plusDivs(+1)">
+              Next &#10095;
+            </button>
           </div>
         </div>
       </div>
+
       <div id="pageFour">
         <div class="aboutMe">
           <h1>CONTACT ME</h1>
@@ -135,5 +179,29 @@
       </div>
     </main>
     <footer></footer>
+
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs((slideIndex += n));
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+      }
+    </script>
   </body>
 </html>
