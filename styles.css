@@ -26,6 +26,10 @@
   color: #c0c0c0;
 }
 
+.mySlides {
+  padding-top: 50px;
+}
+
 .pageOne {
   min-height: 100vh;
   padding-top: 100px;
@@ -124,8 +128,12 @@
   padding-top: 30px;
 }
 
+.topport {
+  padding-top: 50px;
+}
+
 .fontresizer {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .imagesizer img {

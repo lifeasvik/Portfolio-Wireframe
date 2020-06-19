@@ -65,10 +65,10 @@
       </div>
 
       <div id="pageThree">
-        <div>
+        <div class="topport">
           <div class="padder2"><h1>PORTFOLIO</h1></div>
           <div class="mySlides">
-            <div class="app1"><img src="crazybaby3.png" /></div>
+            <div class="app1"><img src="crazybaby3.png" alt="Crazy Baby Quiz App"/></div>
             <div><h3>Crazy Baby Quiz App</h3></div>
             <div class="padder">
               This app is a random 5 question quiz app that tests your
@@ -93,7 +93,7 @@
             </div>
           </div>
           <div class="mySlides">
-            <div class="slideshow"><img src="npmm.png" /></div>
+            <div class="slideshow"><img src="npmm.png" "NPMM App"/></div>
             <div><h3>NPMM</h3></div>
             <div class="padder">
               Node Package Manager Manager (NPMM) allows developers to
@@ -115,7 +115,7 @@
           </div>
 
           <div class="mySlides">
-            <div class="slideshow"><img src="posted.png" /></div>
+            <div class="slideshow"><img src="posted.png" "Posted App" /></div>
             <div><h3>POSTED</h3></div>
             <div class="padder">
               An online postcard generator that allows users to create postcards
@@ -134,13 +134,6 @@
               >
             </div>
           </div>
-          <div class="padder">
-            <button class="buttonleft" onclick="plusDivs(-1)">
-              &#10094; Back
-            </button>
-            <button class="buttonright" onclick="plusDivs(+1)">
-              Next &#10095;
-            </button>
           </div>
         </div>
       </div>
@@ -180,28 +173,5 @@
     </main>
     <footer></footer>
 
-    <script>
-      var slideIndex = 1;
-      showDivs(slideIndex);
-
-      function plusDivs(n) {
-        showDivs((slideIndex += n));
-      }
-
-      function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        if (n > x.length) {
-          slideIndex = 1;
-        }
-        if (n < 1) {
-          slideIndex = x.length;
-        }
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";
-        }
-        x[slideIndex - 1].style.display = "block";
-      }
-    </script>
   </body>
 </html>
